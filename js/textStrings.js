@@ -822,3 +822,127 @@ var textStrings_TR = {
 	// (quote0004.png)
 	"misatrributed": "(yanlış bir şekilde ona atfedilir)",
 };
+
+var textStrings_HU = {
+	// Act 1
+	"niceHat": "JAJ DE SZÉP KALAP",
+	"outtaHere": "yeah git on outta here",
+	"getARoom": "GUSZTUSTALAN, KERESSETEK EGY SZOBÁT",
+	"notCoolAnymore": "JA SEMMI, A KALAPOK MÁR NEM IS MENŐK",
+	"tvOnTv": "EGY TV... A TVBEN!",
+	"cricky": "PICI TÜCSÖK <3",
+	"tooManyCrickets": "oké, ez már túl sok tücsök",
+	"normalPeep": "csak egy normális csavó",
+	"normalPeeps": "csak néhány normális csavó",
+	"wowNothing": "AZTA, EZ EGY NAGY SEMMI",
+
+	// Act 2
+	"crazySquareAttacks": "ŐRÜLT NÉGYZET TÁMAD",
+	"justMissed": "oooooh just missed it",
+	"somethingInteresting": "(valami érdekes dolgot kell lencsevégre kapnod...)",
+	"whoIsScreaming": "(fotózd le azt, aki ordít rájuk)",
+	"circleFearsSquares": "A KÖRÖK FÉLNEK A NÉGYZETEKTŐL",
+	"whoScaresThem": "(azt is el kell kapnod, hogy kitől félnek)",
+	"areTheyScared": "(le kell fotóznod, hogy egy négyzettől fél)", // not used
+	"squaresSnubCircles": "A NÉGYZETEK LENÉZIK A KÖRÖKET",
+	"areTheySnubbed": "(ya gotta catch 'em *while* snubbing a circle)", // not used
+	"everyoneHates": "MINDENKI GYŰLÖL MINDENKIT!!4!", //ive changed the 1 to a 4, because on a HU layout, shift+4 is '!'
+	"almostEveryoneHates": "MAJDNEM MINDENKI GYŰLÖL MINDENKIT...",
+	"squaresHateCircles": "A NÉGYZETEK GYŰLÖLIK A KÖRÖKET",
+	"circlesHateSquares": "A KÖRÖK GYŰLÖLIK A NÉGYZETEKET",
+	"areTheyYelling": "(ya gotta catch 'em *yelling* at others)", // not used
+	"nerdsNow": "ezek a kockák mi a fenét csinálnak?",
+	"schockedPeep": "eza csávó miért van meglepődve?",
+	"whatever": "na mindegy",
+
+	// Act 3
+	"ellipsis": ". . .",
+	"coolNoMore": " tesó nem hallottad, hogy a kalapok már nem menők?",
+	"beScared": "FÉLJ! LÉGY DÜHÖS!",
+
+	// MANIFESTO
+	"manifesto": [
+		//"as if you viewers want GOOD news"       ,
+		"kit érdekel amikor az emberek *békében élnek?*",
+		"a béke unalmas. az erőszak vírusként terjed",
+		//"peace is boring. conflict gets clicks." ,
+		"minden sztoriban kell egy konfliktus, szóval...",
+		//"...GIVE THE AUDIENCE WHAT THEY WANT."   ,
+		"ADD MEG A NÉZŐKNEK AMIT AKARNAK."
+	],
+
+	// -- Strings currently in graphics resources --
+
+	// (bg_preload.png) Preload screen
+	"playingTime": "körülbelül 5 percet vesz igénybe",
+	"warning": "figyelem: A játék sznobizmust, gorombaságot\nés tömeggyilkosságot tartalmaz.\nElindítás előtt ezt vegyük figyelembe!",
+
+	// (cam-instructions.png) Camera Instructions
+	"pointAndClick": "Kattints a kép készítéséhez",
+
+	// (chyron3.png)
+	"chyronNothing": "AZTA, EZ EGY NAGY SEMMI*",
+
+	// (credits0001.png)
+	"createdBy": "készítette:",
+	"NickyCase": "Nicky Case",
+
+	// (credits0002.png)
+	"manyThanks": "köszönet a játék tesztelőinek:",
+
+	// (credits000[3,4,5,6].png)
+	"patreonSupporters": "és a Patreon támogatóknak:",
+
+	// (credits0007.png)
+	"lastButNotLeast": "és végül, de nem utolsó sorban,",
+
+	// (credits0008.png)
+	"thankYouForPlaying": "neked! Köszönöm, hogy játszottál!",
+
+	// (preload_play.png)
+	"playButton": "JÁTÉK",
+
+	// (end_button.png) Post Credits
+	"otherWorkButton": "további munkásságom",
+	"buyCoffeeButton": "hívj meg egy kávéra",
+	"replayButton": "játszd újra ezt a káoszt",
+
+	// (logo.png) Post Credits
+	"logoWBWWB": "SHARE THE PAIN:",
+
+	// (end_prototype.png)
+	"endOfPrototype": "PROTOTíPUS VÉGE",
+	"toBeContinued": "(folytatjuk!)",
+
+	// (quote0002.png)
+	"WBWWB": "Azzá válunk, amit látunk",
+	"WSOTATOTSU": "Mi formáljuk az eszközeinket, majd az eszközeink formálnak minket.",
+
+	// (quote0003.png)
+	"MarshallMcLuhan": "Marshall McLuhan",
+
+	// (quote0004.png)
+	"misatrributed": "(tévesen tulajdonított)",
+};
+
+const textStrings = (() => {
+	switch (navigator.language) {
+		case "en-US":
+			return textStrings_EN;
+		case "da":
+			return textStrings_DA;
+		case "fa":
+			return textStrings_FA;
+		case "pt-pt":
+			return textStrings_PT;
+		case "pt-BR":
+			return textStrings_PT_BR;
+		case "es":
+			return textStrings_ES;
+		case "hu":
+			return textStrings_HU;
+		default:
+			return textStrings_EN;
+	}
+}
+)();
