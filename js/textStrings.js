@@ -827,8 +827,8 @@ var textStrings_HU = {
 	// Act 1
 	"niceHat": "JAJ DE SZÉP KALAP",
 	"outtaHere": "yeah git on outta here",
-	"getARoom": "GUSZTUSTALAN, KERESSETEK EGY SZOBÁT",
-	"notCoolAnymore": "JA SEMMI, A KALAPOK MÁR NEM IS MENŐK",
+	"getARoom": "FÚJ, MENJETEK A NÉGY FAL KÖZÉ!",
+	"notCoolAnymore": "A KALAPOK MÁR NEM IS MENŐK",
 	"tvOnTv": "EGY TV... A TVBEN!",
 	"cricky": "PICI TÜCSÖK <3",
 	"tooManyCrickets": "oké, ez már túl sok tücsök",
@@ -838,7 +838,7 @@ var textStrings_HU = {
 
 	// Act 2
 	"crazySquareAttacks": "ŐRÜLT NÉGYZET TÁMAD",
-	"justMissed": "oooooh just missed it",
+	"justMissed": "pont lemaradtál...",
 	"somethingInteresting": "(valami érdekes dolgot kell lencsevégre kapnod...)",
 	"whoIsScreaming": "(fotózd le azt, aki ordít rájuk)",
 	"circleFearsSquares": "A KÖRÖK FÉLNEK A NÉGYZETEKTŐL",
@@ -847,7 +847,7 @@ var textStrings_HU = {
 	"squaresSnubCircles": "A NÉGYZETEK LENÉZIK A KÖRÖKET",
 	"areTheySnubbed": "(ya gotta catch 'em *while* snubbing a circle)", // not used
 	"everyoneHates": "MINDENKI GYŰLÖL MINDENKIT!!4!", //ive changed the 1 to a 4, because on a HU layout, shift+4 is '!'
-	"almostEveryoneHates": "MAJDNEM MINDENKI GYŰLÖL MINDENKIT...",
+	"almostEveryoneHates": "LASSAN MINDENKI GYŰLÖL MINDENKIT",
 	"squaresHateCircles": "A NÉGYZETEK GYŰLÖLIK A KÖRÖKET",
 	"circlesHateSquares": "A KÖRÖK GYŰLÖLIK A NÉGYZETEKET",
 	"areTheyYelling": "(ya gotta catch 'em *yelling* at others)", // not used
@@ -911,7 +911,7 @@ var textStrings_HU = {
 	"logoWBWWB": "SHARE THE PAIN:",
 
 	// (end_prototype.png)
-	"endOfPrototype": "PROTOTíPUS VÉGE",
+	"endOfPrototype": "PROTOTÍPUS VÉGE",
 	"toBeContinued": "(folytatjuk!)",
 
 	// (quote0002.png)
